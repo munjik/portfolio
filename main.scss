@@ -1,0 +1,614 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600&display=swap);@charset "UTF-8";
+
+body,
+html {
+  height: 100%;
+}
+
+p {
+  color: white;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  height: 85%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nCanvasRender {
+  position: absolute;
+  height: 100%;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.galleryContainer .thumbnail {
+  padding-bottom: 20px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.galleryContainer .thumbnail img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.galleryContainer .thumbnail .item-desc {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #15A4EB;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.c-preview {
+  background: #000;
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 0%, #000000 25%, #1e539e 50%, #ff3083 75%, #7800a8 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.c-preview__img {
+  z-index: 1;
+  opacity: 1;
+  mix-blend-mode: screen;
+}
+
+.c-preview:hover {
+  background-position: 75% 75%;
+}
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+/* where colors for our start up and expirence begin */
+
+.fill {
+  --color: #2F12D4;
+  --hover: #2f12d4;
+}
+
+.pulse {
+  --color: #03fcc2;
+  --hover: #03fcc2;
+}
+
+.close {
+  --color: #00fff2;
+  --hover: #00fff2;
+}
+
+.raise {
+  --color: #fc0384;
+  --hover: #fc0384;
+}
+
+.up {
+  --color: #00fff2;
+  --hover: #00fff2;
+}
+
+.slide {
+  --color: #DE080C;
+  --hover: #de080c;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+
+button:hover,
+button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+.navbar-custom {
+    background-color: #000000;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #15A4EB;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.heart {
+    color: #e25555;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+.createSpace {
+
+      padding-top: 150px;
+  }
+
+  h1 {
+      font-weight: bold;
+      color: white;
+  }
+
+  h2 {
+      color: white;
+  }
+
+  h3 {
+      color: white;
+  }
+
+  h5 {
+      color: white;
+  }
+
+  h6 {
+      color: white;
+  }
+
+  #menu ul {
+      list-style: none;
+  }
+
+  #menu li {
+      display: inline;
+  }
+
+
+
+
+  /*
+.moveLeft {
+padding-left:70px.
+} */
+
+  .vl {
+      border-left: 6px solid #15A4EB;
+      height: 265px;
+      padding-left: 50px;
+
+  }
+
+
+  .vl2 {
+      border-left: 6px solid green;
+      height: 50px;
+      position: absolute;
+      left: 50%;
+      margin-left: -3px;
+      top: 0;
+
+  }
+
+  .createPad {
+      padding-top: 70px;
+  }
+
+  .createBtnSpace {
+      padding-top: 40px;
+  }
+
+  .button1 {
+      border-radius: 20px;
+      margin-top: 15px;
+  }
+
+  .whiteSpaceTop {
+      padding-top: 600px;
+  }
+
+
+
+
+  .wrapper {
+      text-align: center;
+      margin: 50px auto;
+  }
+
+  .dot {
+      height: 5px;
+      width: 5px;
+      background-color: #15A4EB;
+      border-radius: 50%;
+      display: inline-block;
+  }
+
+  .special-card {
+      /* create a custom class so you
+ do not run into specificity issues
+ against bootstraps styles
+ which tends to work better than using !important
+ (future you will thank you later)*/
+
+      background-color: rgba(0, 0, 0, 0);
+      opacity: .4;
+  }
+
+
+
+  .box {
+
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  }
+
+  .box:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid red;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .boxYellow {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  }
+
+  .boxYellow:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid yellow;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .boxPink {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  }
+
+  .boxPink:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid #fc0384;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .boxGreen {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  }
+
+  .boxGreen:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid #03fcc2;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .boxPurple {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  }
+
+  .boxPurple:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid #2F12D4;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .boxLight {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  }
+
+  .boxLight:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid #00fff2;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  $theme-colors: (
+    "primary": #FFFFFF,
+    "custom-color": #000000,
+    "shock": #FED900,
+    "warning": #15A4EB
+);
+
+
+$base-margin: 20px;
+$blue: #345F90;
+$shock: #FED900;
+$warning: #15A4EB;
+$primary: #FFFFFF;
+
+$tab-height: 35px;
+$tab-border-radius: 35px;
+
+body,
+html {
+    height: 100%;
+}
+
+p {
+    color: white;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+// h1 {
+//   color: green;
+// }
+
+#particles-js {
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nCanvasRender {
+  position: absolute;
+  height: 85%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.galleryContainer {
+  .thumbnail {
+    padding-bottom: 20px;
+    position: relative;
+    border-radius: 5px;
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-sizing: border-box;
+      // box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.3);
+    }
+    .item-desc {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      display: inline-block;
+      text-transform: uppercase;
+      color: $primary;
+      background-color: $warning;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
+
+}
+
+
+
+.c-preview {
+  background: #000;
+  background: -moz-linear-gradient(-45deg, #000000 0%, #000000 25%, #1e539e 50%, #ff3083 75%, #7800a8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #000000 0%,#000000 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 0%,#000000 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+  transition: .5s all;
+
+  &__img {
+    z-index: 1;
+    opacity: 1;
+
+    mix-blend-mode: screen;
+  }
+
+
+  &:hover {
+    background-position: 75% 75%;
+
+  }
+}
+
+
+// Animate the size, inside
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+// Animate the size, outside
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+// Stack multiple shadows, one from the left, the other from the right
+.close:hover,
+.close:focus {
+  box-shadow:
+    inset -3.5em 0 0 0 var(--hover),
+    inset 3.5em 0 0 0 var(--hover);
+}
+
+// Size can also be negative; see how it's smaller than the element
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+// Animating from the bottom
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+// And from the left
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+// Multiple shadows, one on the outside, another on the inside
+
+/* where colors for our start up and expirence begin */
+// If you wonder why use Sass vars or CSS custom properties...
+  // Make a map with the class names and matching colors
+$colors: (
+  fill: #2F12D4,
+  pulse: #03fcc2,
+  close: #00fff2,
+  raise: #fc0384,
+  up: #00fff2,
+  slide: #DE080C,
+);
+
+// Sass variables compile to a static string; CSS variables are dynamic and inherited
+  // Loop through the map and set CSS custom properties using Sass variables
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 0deg)};
+  }
+}
+
+// Now every button will have different colors as set above. We get to use the same structure, only changing the custom properties.
+button {
+  color: var(--color);
+  transition: 0.25s;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+
+
+// Basic button styles
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+
+
+
+// Body
+$body-bg: #000000;
+// Typography
+$font-family-sans-serif: 'Titillium+Web', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
