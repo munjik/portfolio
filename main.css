@@ -506,8 +506,8 @@ canvas {
 }
 
 .slide {
-  --color: #DE080C;
-  --hover: #de080c;
+  --color: #fffc00;
+  --hover: #fffc00;
 }
 
 button {
@@ -553,7 +553,7 @@ button {
   --close: #00fff2;
   --raise: #fc0384;
   --up: #00fff2;
-  --slide: #DE080C;
+  --slide: #fffc00;
   --primary: #FFFFFF;
   --secondary: #6c757d;
   --success: #38c172;

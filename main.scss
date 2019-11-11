@@ -330,6 +330,21 @@ padding-left:70px.
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
 
+  .boxCyan {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+  }
+
+  .boxCyan:hover {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      animation-name: example;
+      animation-duration: 0.25s;
+      border-left: 8px solid yellow;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
   .boxPink {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
       transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
@@ -552,7 +567,7 @@ $colors: (
   close: #00fff2,
   raise: #fc0384,
   up: #00fff2,
-  slide: #DE080C,
+  slide: #fffc00,
 );
 
 // Sass variables compile to a static string; CSS variables are dynamic and inherited
