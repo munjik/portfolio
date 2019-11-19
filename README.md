@@ -10,3 +10,4 @@
 5.)Then you'll need to establish sass to update the customizable bootstrap UI. Visit sass for more details.
 
 6.)Once you've done so you'll be able to get going!
+Everything is located in the 'Portfolio' file.
